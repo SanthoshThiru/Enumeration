@@ -60,18 +60,23 @@ thehindu.com
 
 #### inurl:
  This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+
 ![Screenshot 2024-10-07 172201](https://github.com/user-attachments/assets/b93de899-40e6-4a01-82c5-6bf7c7abb156)
 
 #### intitle:
  This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+
 ![Screenshot 2024-10-07 172306](https://github.com/user-attachments/assets/37d2ddb8-80e3-4b7b-97ac-b41523bed727)
 
 #### link:
  This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+
 ![Screenshot 2024-10-07 172554](https://github.com/user-attachments/assets/c5c42621-80da-4614-8514-96d3c568bf11)
 
 #### cache:
  This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
+ ![alt text](<Screenshot 2024-11-11 100549.png>)
 
  
 # DNS Enumeration
