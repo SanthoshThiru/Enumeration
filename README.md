@@ -1,6 +1,12 @@
 # Enumeration
 Enumeration Techniques
 
+## Name: Santhosh T
+
+## Register Number: 212223220100
+
+## Department: Information Technology
+
 # Explore Google hacking and enumeration 
 
 # AIM:
@@ -26,41 +32,52 @@ Open terminal and try execute some kali linux commands
 Following Categories of pen test tools are identified:
 Information Gathering.
 
-Google Hacking:
+### Google Hacking:
 
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
-site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
-Following searches for all the sites that is in the domain yahoo.com
+#### site:
+ This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
+Following searches for all the sites that is in the domain wikipedia.com
+
 ![Screenshot 2024-10-07 171319](https://github.com/user-attachments/assets/e056d0e2-e7fb-43d5-8308-a8c156cd7ab8)
 
 
-filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
-Following searches for pdf file in the domain yahoo.com
+#### filetype: 
+This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
+Following searches for pdf file in the domain 
+thehindu.com
+
 ![Screenshot 2024-10-07 171926](https://github.com/user-attachments/assets/feafd8a3-c589-4793-9486-421848193dbf)
 
 
 
-intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+#### intext:
+ This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:world war" would search for pages that contain the word "world war" within the body of the page.
+
 ![Screenshot 2024-10-07 172042](https://github.com/user-attachments/assets/0b77396d-25f5-4872-8af2-a8ae3e803280)
 
 
-inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+#### inurl:
+ This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 ![Screenshot 2024-10-07 172201](https://github.com/user-attachments/assets/b93de899-40e6-4a01-82c5-6bf7c7abb156)
 
-intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+#### intitle:
+ This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 ![Screenshot 2024-10-07 172306](https://github.com/user-attachments/assets/37d2ddb8-80e3-4b7b-97ac-b41523bed727)
 
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+#### link:
+ This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 ![Screenshot 2024-10-07 172554](https://github.com/user-attachments/assets/c5c42621-80da-4614-8514-96d3c568bf11)
 
-cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+#### cache:
+ This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
  
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -75,7 +92,7 @@ Top level domain expansion
 
 
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -88,10 +105,11 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+
 ![image](https://github.com/user-attachments/assets/2c5342fa-d23b-4be6-8510-e81f56a7e645)
 
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -102,12 +120,12 @@ select any username in the first column of the above file and check the same
 ![image](https://github.com/user-attachments/assets/0cf15de2-8cdb-42b7-8320-36839baf9b57)
 
 
-#Telnet for smtp enumeration
+# Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output
   ![image](https://github.com/user-attachments/assets/5bb73495-58f4-47c1-b0d6-f5e26812fad2)
 
   
